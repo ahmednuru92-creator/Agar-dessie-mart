@@ -1,0 +1,58 @@
+{
+  "name": "ደሴ ማርት (ሙጋድ ገበያ)",
+  "short_name": "ደሴ ማርት",
+  "description": "የደሴ ከተማ እና የደቡብ ወሎ ዘመናዊ የሞባይል ኢ-ኮሜርስ፣ የኪራይ/ሽያጭ እና የተገላቢጦሽ ጨረታ መድረክ",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f9f9ff",
+  "theme_color": "#1254d6",
+  "orientation": "portrait",
+  "lang": "am",
+  "dir": "ltr",
+  "categories": [
+    "shopping",
+    "business",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "/assets/icons/app_icon_192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icons/app_icon_512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "ማስታወቂያ ለጥፍ",
+      "short_name": "ለጥፍ",
+      "description": "አዲስ የሽያጭ ወይም የኪራይ ማስታወቂያ ይለጥፉ",
+      "url": "/post",
+      "icons": [
+        {
+          "src": "/assets/icons/add_icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "የጨረታ ገበያ",
+      "short_name": "ጨረታ",
+      "description": "ክፍት ጨረታዎችንና የገዢ ፍላጎቶችን ይመልከቱ",
+      "url": "/tenders",
+      "icons": [
+        {
+          "src": "/assets/icons/tender_icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}
